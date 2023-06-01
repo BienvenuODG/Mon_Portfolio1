@@ -201,6 +201,9 @@ section {
   /* font-size: 3rem; */
   font-size: 30px;
 }
+.header-content .right-header h1{
+  font-size: 10px;
+}
 .header-content .right-header .name span {
   color: var(--color-secondary);
   /* font-size: 30px; */
@@ -317,13 +320,13 @@ section {
   width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 95%;
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
   width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
+  width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
   width: 87%;
@@ -964,6 +967,14 @@ section {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
+}
+
+.btn-message{
+  position: relative;
+  width: 80px;
+  height: 30px;
+  margin-left: 20%;
+  padding-top: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
