@@ -408,6 +408,7 @@ section {
   padding: 2rem 0;
   text-align: center;
 }
+/* ----------------------------------------Début portfolio------------------------------------ */
 
 .portfolios {
   display: grid;
@@ -551,7 +552,7 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .contact-content-con .left-contact .contact-info .contact-item p {
   margin: 0.3rem 0 !important;
@@ -968,13 +969,27 @@ section {
     font-size: 4rem;
   }
 }
+.contact-content-con .right-contact .btn_message{
+  /* background-color: #27AE60;
+  background-size: 800px;
+  height: 4rem; */
 
-.btn-message{
-  position: relative;
-  width: 80px;
-  height: 30px;
-  margin-left: 20%;
-  padding-top: 50px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.8rem 1.1rem;
+  /* background-color: var(--color-grey-5); */
+  width: 100%;
+  color: var(--color-white);
+  resize: none;
+  cursor: pointer;
+  margin-top: 3rem;
+  border: 1px solid #27AE60;
 }
 
+.contact-content-con .right-contact .btn_message:hover{
+  background-color: #27AE60;
+  transition: 0.4s ease-in-out;
+}
 /*# sourceMappingURL=styles.css.map */
